@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activities.BookingActivity">
+    <EditText
+        android:id="@+id/full_name_booking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_student_booking"
+        android:background="@drawable/username_booking"
+        android:padding="15dp"
+        android:layout_margin="25dp"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/phone_number_student_booking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_number_student_booking"
+        android:background="@drawable/username_booking"
+        android:padding="15dp"
+        android:layout_margin="25dp"
+        android:inputType="phone"/>
+    <EditText
+        android:id="@+id/phone_number_parents_booking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/parents_phone_number_booking"
+        android:background="@drawable/phone_number_family_booking"
+        android:padding="15dp"
+        android:layout_margin="25dp"
+        android:inputType="phone"/>
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/send_booking"
+        android:layout_marginTop="25dp"
+        android:text="@string/send_button_booking"
+        android:textStyle="bold"/>
+</LinearLayout>

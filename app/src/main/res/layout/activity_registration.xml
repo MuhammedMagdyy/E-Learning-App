@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activities.RegistrationActivity">
+    <EditText
+        android:id="@+id/username_registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username_registration"
+        android:background="@drawable/username_registration"
+        android:padding="15dp"
+        android:layout_margin="25dp"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/phone_number_registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_number_registration"
+        android:background="@drawable/phone_number_registration"
+        android:padding="15dp"
+        android:layout_margin="25dp"
+        android:inputType="phone"/>
+    <EditText
+        android:id="@+id/password_registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_registration"
+        android:background="@drawable/password_registration"
+        android:padding="15dp"
+        android:layout_margin="25dp"
+        android:inputType="textWebPassword"/>
+    <Button
+        android:id="@+id/registration_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/register_now_registration"
+        android:layout_marginTop="25dp"
+        android:text="@string/registration_button"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/login_now_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_registration"
+        android:textSize="16sp"
+        android:layout_marginTop="18dp"/>
+
+</LinearLayout>

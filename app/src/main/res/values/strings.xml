@@ -1,0 +1,34 @@
+<resources>
+    //AppName
+    <string name="app_name" translatable="false">E-Learning</string>
+    //Welcome
+    <string name="the_main_app">التطبيق الرسمي للأستاذ</string>
+    <string name="the_main_square_app">عـلاء رفـعـت</string>
+    <string name="join_now_welcome">Join Now</string>
+    <string name="Login_welcome">Login</string>
+    //Registration
+    <string name="username_registration" translatable="false">Username</string>
+    <string name="phone_number_registration" translatable="false">Phone number</string>
+    <string name="email_registration">Email Address</string>
+    <string name="password_registration">Password</string>
+    <string name="sign_up_registration">Sign Up</string>
+    <string name="login_registration">Already have an Account? Login here</string>
+    <string name="registration_button">Register</string>
+    //Login
+    <string name="email_login">Email Address</string>
+    <string name="phone_number_login">Phone Number</string>
+    <string name="password_login">Password</string>
+    <string name="login_button">Login</string>
+    <string name="registration_login">Don\'t have an Account? Sign up</string>
+    <string name="check_box_login">Remember me</string>
+    <string name="forget_password_login">Forgot password?</string>
+    <string name="or">or</string>
+    <string name="login_as_admin">Login as Admin</string>
+    //Booking
+    <string name="name_student_booking">Full name</string>
+    <string name="parents_phone_number_booking">Your parent\'s phone number</string>
+    <string name="phone_number_student_booking">Your phone number</string>
+    <string name="send_button_booking">Send</string>
+    //Admin
+    <string name="test">Text</string>
+</resources>
